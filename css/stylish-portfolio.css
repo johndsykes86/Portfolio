@@ -219,6 +219,11 @@ hr.small {
     background-size: cover;
 }
 
+.background-tint {
+  background-color: rgba(200,100,0,.5); // Tint color
+  background-blend-mode: multiply;
+}
+
 
 /* Portfolio */
 
@@ -243,6 +248,11 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+}
+
+.img-portfolio img {
+  width: 480px;
+  height: 640px;
 }
 
 
